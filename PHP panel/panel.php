@@ -29,6 +29,17 @@
 
 <body>
 
+<div id="upper_menu"> 
+	<ul>
+		<a href="panel.php"><li class="selected">Button 1</li></a>
+		<a href="panel.php"><li>Button 2</li></a>
+		<a href="panel.php"><li>Button 3</li></a>
+		<a href="panel.php"><li>Button 4</li></a>
+		<a href="panel.php"><li>Button 5</li></a>
+	</ul>
+</div>
+
+
 <?php
 	
 	if((isset($_SESSION["email"])))
@@ -43,11 +54,10 @@
 		{
 			// только теперь работаем
 		
+			echo("<div id='alert_box'>");
 			echo("You entered as <b>".$email."</b>, and your IP = <b>".$_SERVER["REMOTE_ADDR"]."</b><br/><br/>");
 			echo("Your last login was <b>".$myrow["last_login"]."</b> from IP = <b>".$myrow["last_ip"]."</b><br/><br/>");
-		
-		
-		
+			echo("</div>");
 		
 		
 		
