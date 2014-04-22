@@ -5,9 +5,38 @@
 .headerImage{
     position: absolute;
     top: 3%;
-    left: 3.5%;
-	
-	
+    left: 3.5%;	
+}
+/*Background Images*/
+#bgLaptop1, #bgLaptop2{
+    float: right;
+    margin-top:10%;
+    margin-right: 5%;
+}
+#bgTablet1{
+    float: right;
+    margin-top:10%;
+    margin-right: 2%;
+}
+#bgTablet2{
+    float: right;
+    margin-right: 5%;
+}
+#bgAllinone1{
+    margin-left: -100px;
+}
+#bgAllinone2{
+    float: right;
+    margin-top:10%;
+    margin-right: 0%;
+}
+#bgPC1{
+    margin-top:10%;
+    margin-left: -10px;
+}
+#bgPC2{
+    float: right;
+    margin-top:10%;
 }
 /*Размеры лого, так как пикчи разного разрешения придеться задать разные проценты для резиновой верстки*/
 #logoLaptops{
@@ -54,6 +83,8 @@
     height: 400px;
     width: 500px;
     margin-left: 10%;
+    margin-top: 1000px;
+    position: relative;
 }
 #textAllinones{
     height: 600px;
