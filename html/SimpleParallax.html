@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <title>Simple Parallax Effect</title>
+    <script>
+        function onLoad() {
+            window.onscroll = function () {
+                var speed = 8.0;
+                document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+            }
+        }
+    </script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body onload="onLoad()" style="height: 200%; width: 200%; background-image: url(cartographer.png); background-repeat: repeat-xy; background-attachment: fixed; font-family: 'Ubuntu Condensed', sans-serif; text-shadow: black 0px 0px 4px">
+    <div style="color: White; font-size:3em; margin: 64px 64px 32px 128px;">
+        Dead simple background parallax scrolling in javascript.<br>
+        (scroll up, down, left, and right)
+    </div>
+    <div style="background-image: url('black-Linen.png'); border-radius: 8px; margin-bottom: 10%; color: white; font-size: 1em; padding: 16px; float: left; margin: 32px 64px 32px 128px; text-shadow: none">
+        <pre>
+&lt;html>
+    &lt;head>
+        &lt;script>
+        
+            function onLoad() {
+            </pre>
+        <pre style="color: green">
+                window.onscroll = function() {
+                    var speed = 8.0;
+                    document.body.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+                }
+            </pre>
+        <pre>
+            }
+            
+        &lt;/script>
+    &lt;/head>
+    &lt;body onload="onLoad()">
+    &lt;/body>
+&lt;/html>
+            </pre>
+    </div>
+</body>
+
+</html>

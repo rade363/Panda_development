@@ -1,0 +1,83 @@
+﻿  /* Static background 
+img.bg {
+  
+  min-height: 100%;
+  min-width: 1024px;
+	
+  width: 100%;
+  height: auto;
+	
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+*/
+@media screen and (max-width: 1024) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+/*ChangeBG*/
+html {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image:url(http://robt.info/wp-content/uploads/2013/06/funny-kids-comic-animals.jpg);
+
+}
+html.scrolled {
+    background-image:url(http://ringvemedia.com/server//bg.jpg);
+}
+
+body{
+	height:1000px;
+}
+/*Stuff*/
+#laptop{
+	position: relative;
+    width: 200px;
+    height: 400px;
+    margin-left:5%;
+    margin-top: 100px;
+    float: left;
+    padding: 20px;
+    background: none repeat scroll 0% 0% red;
+}
+#pc{
+	position: relative;
+    width: 200px;
+    height: 400px;
+    margin-left:5%;
+    margin-top: 100px;
+    padding: 20px;
+    background: none repeat scroll 0% 0% red;
+    float: left;
+
+}
+#tablet{
+	position: relative;
+    width: 200px;
+    height: 400px;
+    margin-left:5%;
+    margin-top: 100px;
+    padding: 20px;
+    background: none repeat scroll 0% 0% red;
+    float: left;
+
+}
+#desktop{
+	position: relative;
+    width: 200px;
+    height: 400px;
+    margin-left:5%;
+    margin-top: 100px;
+    margin-right: 5%; 
+    padding: 20px;
+    background: none repeat scroll 0% 0% red;
+    float: left;
+
+}

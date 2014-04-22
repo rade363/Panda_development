@@ -1,0 +1,22 @@
+﻿ @font-face {
+    font-family: HelveticaNeue; /* Имя шрифта */
+    src: url(../fonts/Helvetica-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+.headerImage{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -800px;
+}
+.headerTitle{
+    font-family: HelveticaNeue;
+    font-size: 150px;
+    color: black;
+}
+#headerPosition{
+    margin-top: -450px;
+    margin-left: -60%;
+}
+.bttns{
+    width: 70px;
+    height: 70;
+}

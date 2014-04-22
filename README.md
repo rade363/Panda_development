@@ -1,12 +1,11 @@
-Panda_development
-=================
+<h1>New:</h1>
+Probably nothing. <br>
+This seems to be the first ACTUAL version.
 
-Our project on ASDP
+<hr>
 
-
-FAST FAQ ABOUT GIT:
-
-  - create a directory on your PC which will be syncronized with our repository
-  - no idea what to do next, maybe you don't even need to do the first step
-  - try to figure it out, you are the IT guy
-  - always click on the blue name of folder to enter in
+<h1>Issues:</h1>
+No text, no content<br>
+No pictures - gradients are the whole backgrounds<br>
+Lots of other files with testing, etc<br>
+Issues with scrolling
