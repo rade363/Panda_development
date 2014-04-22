@@ -3,7 +3,7 @@
         verticalCentered: true,
         resize: true,
         /*slidesColor : ['black', 'red', 'blue', 'green', 'pink', 'orange'],*/
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage'],
         scrollingSpeed: 700,
         easing: 'easeInQuart',
         menu: '#menu',

@@ -1,6 +1,8 @@
 <h1>New:</h1>
-Design changes<br>
-IMGs are now content<br>
+Added the Contact Us Page<br>
+Updates to design<br>
+Added prices<br>
+
 <hr>
 
 <h1>Issues:</h1>
