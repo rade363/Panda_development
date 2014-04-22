@@ -1,130 +1,44 @@
-﻿ @font-face {
-    font-family: HelveticaNeue; /* Имя шрифта */
-    src: url(../fonts/Helvetica-Light.ttf) format("opentype"); /* Путь к файлу со шрифтом */
-   }
-/*Resizable images*/
-img {
+﻿img {
     height: auto;
     max-width: 100%;
 }
-/*Background Images*/
-#bgHome{
-	margin-left: 640px;
-	margin-right: auto;
-	display: block;
-	position: absolute;
-	top: 3%;
-}
-#bgLaptop1, #bgLaptop2{
-    float: right;
+#gdgt{
+	float: right;
     margin-top:10%;
     margin-right: 5%;
 }
-#bgTablet1{
-    float: right;
-    margin-top:10%;
-    margin-right: 2%;
-}
-#bgTablet2{
-    float: right;
-    margin-top: 200px;
-    margin-right: 5%;
-}
-#bgAllinone1{
-    margin-left: 100px;
-    margin-top: 10%;
-}
-#bgAllinone2{
-    float: right;
-    margin-top:10%;
-    margin-right: 10%;
-}
-#bgPC1{
-	float: left;
-    margin-top: 13%;
-    margin-left: -10px;
-}
-#bgPC2{
-    float: right;
-    margin-top:10%;
-}
-/*Отныне лого - текст*/
-.headerTitle{
-    font-family: HelveticaNeue;
-    font-size: 150px;
-    color: black;    
-    position: absolute;
-    top: 0%;
-    left: 0%;	
-    background-color: white;
-    width: 100%;
+#info{
     text-align: left;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-#headerPosition{
-    margin-top: -450px;
-    margin-left: -60%;
-}
-.bttns{
-    width:110%;
-    height: 40%;
-	
-}
-#textLaptops, #textTablets, #textTablets2, #textAllinones, #textAllinones2, #textPCs{
-    text-align: left;
-    font-family: HelveticaNeue;
-}
-#textLaptops{
     height: 400px;
-    width: 700px;
+    width: 800px;
     margin-left: 10%;    
-    margin-top: 150px;
+    margin-top: 0px;
 }
-#textTablets{
-    height: 400px;
-    width: 500px;
-    margin-left: 10%;
-    margin-top: 200px;
+h1{
+	font-size: 6em;	
 }
-#textTablets2{
-    height: 400px;
-    width: 700px;
-    margin-left: 10%;
-    margin-top: 50px;
+h2{
+    font-size: 3em;
+    margin-top:10px;
 }
-#textAllinones{
-    height: 600px;
-    width: 600px;
-    float: right;
-    margin-right: 5%;
-    margin-top: 200px;
-}
-#textAllinones2{
-    height: 400px;
-    width: 700px;
-    margin-left: 10%;    
-    margin-top: 10%;
-}
-#textPCs{
-    height: 400px;
-    width: 700px;
-    float: right;
-    margin-right: 10%;
-    margin-top: 12%;
+p{
+	font-size: 1.5em;
 }
 #preprice{
-	font-family: HelveticaNeue;
     font-size: 20px;
-    color: black;
     text-align: center;     
 }
 #price{
-	font-family: HelveticaNeue;
     font-size: 125px;
-    color: black;
     text-align: right;     
 }
+.intro {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+
 /*Rollovers*/
 #home{
     margin-left: 10%;

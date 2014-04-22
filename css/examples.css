@@ -50,7 +50,7 @@ abbr,acronym { border: 0;
 body{
 	font-family: arial,helvetica;
 	color: #333;
-	color: rgba(0,0,0,1);
+	color: rgba(0,0,0,0.5);
 }
 .wrap{
 	margin-left: auto;
@@ -58,35 +58,27 @@ body{
 	width: 960px;
 	position: relative;
 }
-h1{
-	font-size: 4em;	
-}
-p{
-	font-size: 18px;
-}
-h2{
-	color:inherit;
-    font-size: 2em;
-    margin-top:10px;
+
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
 }
 .section{
 	text-align:center;
 }
 #menu li {
-	display:table;
-	/*background:green;*/
-	height:50px;
-	width:60px;
-	margin: 10px; 
-	/*color: #000;*/
-	/*background: #fff;
-	background: rgba(255,255,255, 0.5);*/
-	-webkit-border-radius: 50px; 
-            border-radius: 50px; 
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px; 
+            border-radius: 10px; 
 }
 #menu li.active{
 	background:#666;
-	background: rgba(0,0,0, 0.3);
+	background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
 #menu li a{
@@ -98,86 +90,30 @@ h2{
 }
 #menu li:hover{
 	background: rgba(255,255,255, 0.8);
-	
 }
 #menu li a,
 #menu li.active a{
-	padding: 2px;
+	padding: 9px 18px;
 	display:block;
 }
 #menu li.active a{
-	/*color: #fff;*/
+	color: #fff;
 }
 #menu{
 	position:fixed;
-	top:30%;
+	top:0;
 	left:0;
-	height: 500px;
+	height: 40px;
 	z-index: 70;
-	/*width: 100%;*/
+	width: 100%;
 	padding: 0;
 	margin:0;
-}
-#section0 img,
-#section1 img{
-	margin: 20px 0 0 0;
-}	
-#section2 img{
-	margin: 20px 0 0 52px;	
-}
-#section3 img{
-	bottom: 0px;
-	position:absolute;
-	margin-left: -420px;
-}
-.intro p{
-	width: 50%;
-	margin: 0 auto;
-	font-size: 1.5em;
 }
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
 	right: 149px;
 	top: 9px;
-}
-#fullPage-nav{
-	position: absolute;
-	z-index: 100;
-	margin-top: -32px;
-	top: 50%;
-	opacity: 1;
-}
-#fullPage-nav li{
-	display: block;
-	width: 14px;
-	height: 13px;
-	margin: 7px;
-}
-#fullPage-nav li a{
-	display: block;
-	position: relative;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-	text-decoration: none;
-}
-#fullPage-nav li .active span{
-	background: #333;
-}
-#fullPage-nav span{
-	top: 2px;
-	left: 2px;
-	width: 8px;
-	height: 8px;
-	border: 1px solid #000;
-	background: rgba(0, 0, 0, 0);
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	position: absolute;
-	z-index: 1;
 }
 #download{
 	margin: 10px 0 0 0;
@@ -289,11 +225,15 @@ h2{
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
 	padding: 0 0 5px 0;
 }
-#donations a{
-    color: #333;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 80%;
-}
-#donations a:hover{
-	color: #fff;
-}
+
+
+
+/* Demos Menu
+ * --------------------------------------- */
+ #demosMenu{
+	position:fixed;
+	bottom: 10px;
+	right:10px;
+	z-index: 999;
+ }
+
