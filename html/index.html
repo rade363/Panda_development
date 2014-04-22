@@ -1,35 +1,174 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title>Scrollable Huge Page</title>
-     <script src="JavaScript.js" type="text/javascript"></script>
-     <script>
-     function scrollTo(hash) {
-    location.hash = "#" + hash;
-	}
-     </script>
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<title>Lenovo Store</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="../js/ScrollSettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="../css/example3.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-    <img class="bg" src="bg.jpg"></img>
-    <div id="page-wrap">
-        <h1>SimpleScroll</h1>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-
+<ul id="menu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage"><img src="../img/icns/home.png" class="bttns" /></a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage"><img src="../img/icns/laptops.png" class="bttns" /></a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage"><img src="../img/icns/tablet.png" class="bttns" /></a></li>
+    <li data-menuanchor="4thPage"><a href="#4thPage"><img src="../img/icns/allinone.png" class="bttns" /></a></li>
+    <li data-menuanchor="5thPage"><a href="#5thPage"><img src="../img/icns/pcs.png" class="bttns" /></a></li>
+    <li data-menuanchor="6thPage"><a href="#6thPage"><img src="../img/icns/phone.png" class="bttns" /></a></li>
+</ul>
+<div class="section" style="background-color: #FFFFFF">
+    <img src="../img/bg/bgHome.png" alt="Lenovo" id="bgHome"/>
+    <div id="home">
+        <a href="#secondPage" class="rollover1" title="Laptop"><span class="displace1">Laptop</span></a>
+        <a href="#3rdPage" class="rollover2" title="Tablet"><span class="displace2">Tablet</span></a>
+        <a href="#4thPage" class="rollover3" title="AllinOne"><span class="displace3">AllinOne</span></a>
+        <a href="#5thPage" class="rollover4" title="PC"><span class="displace4">PC</span></a>
     </div>
+</div>
+<div class="section">
+    <div class="slide" style="background-color: #69D2E7">
+    	<p class="headerTitle">&nbsp Laptops</p>
+        <img src="../img/bg/bgLaptops1.png" id="bgLaptop1"/>
+        <div id="textLaptops">
+            <h1>X1 Series</h1>
+            <h2>Uncompromisingly Thin</h2>
+            <p>Starting at just 1.28 kg (2.83 lbs), the new X1 Carbon is the lightest 14" Ultrabook™ on the planet. And at just 17.72 mm thin, it's the thinnest ThinkPad ever.</p>
+            <h2>Available With 10-Point Multitouch Screen</h2>
+            <p>10-point multitouch screen improves accuracy, making touch-browsing and selecting more responsive and precise.</p>
+            <h2>Longer Battery Life</h2>
+            <p>The new X1 Carbon delivers up to **9 hours of battery life on a single charge. And if you do run low, don't fret: with RapidCharge you get 80% battery restored in just under an hour.</p><br>
+            <p id="preprice">from</p><p id="price"> 750€</p>
+        </div>
+    </div>
+    <div class="slide" style="background-color: #69D2E7">
+       <img src="../img/bg/bgLaptops2.png" id="bgLaptop2" />
+        <div id="textLaptops">
+            <h1>Ideapad Series</h1>
+            <h2>Up to Dual NVIDIA® GeForce® Graphics</h2>
+            <p>Select models of the Y510p feature dual NVIDIA® GeForce® GT 755M 2GB graphics with use of Ultrabay.</p>
+            <h2>Cool-Touch Metal Design</h2>
+            <p> The brushed-metal exterior and metal speaker grilles give this laptop a high-performance look and feel to match the powerful components inside.</p>
+            <h2>Intelligent Touchpad</h2>
+            <p> Optimized for the new Windows 8 interface, the intelligent touchpad enables easy scroll, zoom and rotate functions for comfortable control of your laptop.</p>
+			<br><p id="preprice">from</p><p id="price"> 650€</p>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="slide" style="background-color: #E0E4CC">
+    	<!--<p class="headerTitle">&nbsp Tablets</p>
+        <img src="../img/bg/bgTablet2.png" id="bgTablet1" />
+        <!--<div id="textTablets">
+            <h1>Yoga</h1>
+            <h2>Innovative Multimode Design</h2>
+            <p>Yoga Tablet 8's pioneering design incorporates a battery cylinder and kickstand on the side of the device, shifting the center of gravity and opening up multiple usage modes: Hold, Tilt, and Stand.</p>
+            <h2>Epic Battery Life</h2>
+            <p>Yoga Tablet 8 keeps going over the long haul with its off-the-charts battery life. Its battery lasts up to 18 hours* so you can go all day — and into the night — without recharging. </p>
+            <h2>Stylish Design</h2>
+            <p>The device tapers to a mere 3mm at the edge, a laser-etched back housing prevents scratches and makes it comfortable to hold, and chrome-painted trim completes the look.</p>
+  			<br><p id="preprice">from</p><p id="price"> 225€</p>
+        </div>-->
+    </div>
+    <div class="slide" style="background-color: #E0E4CC">
+        <!--<img src="../img/bg/bgTablet1b.png" id="bgTablet2" />
+        <!--<div id="textTablets2">
+            <h1>ThinkPad</h1>
+            <h2>Extreme Mobility</h2>
+            <p> The ThinkPad Tablet 2 is a truly practical business solution, weighing only 565 grams and lasting more than 10 hours on a single charge.</p>
+            <h2>HD IPS Display</h2>
+            <p>Vibrant, wide-view 10.1" IPS display with five-finger multitouch technology seamlessly integrates with Windows 8 and allows more precise control as well as a vivid and immersive viewing experience. </p>
+            <h2>Enterprise-ready Security Features </h2>
+            <p> Enterprise-level security, with TPM chip, Computrace®mobile and Absolute® Manage support.</p>
+            <br><p id="preprice">from</p><p id="price"> 525€</p>
+        </div>-->
+    </div>
+</div>
+<div class="section">
+    <div class="slide" style="background-color: #A7DBD8">
+    	<!--<p class="headerTitle">&nbsp All-in-One</p>
+        <img src="../img/bg/bgAllinone2.png" id="bgAllinone1" />
+        <!--<div id="textAllinones">
+            <h1>M Series</h1>
+            <h2>Built for Collaboration</h2>
+            <p>The M93z's 23" full HD LED display with in-plane switching (IPS) offers a wide viewing angle — nearly 180 degrees — so multiple users can read the screen’s contents from different positions around the PC.</p>
+            <h2>Solid Security & Manageability</h2>
+            <p>The M93z offers some of the best security tools available in the industry, including USB ports disablement to help prevent data theft and network security risks against unauthorized use of storage devices. </p>
+            <h2>Industry-Leading VoIP</h2>
+            <p>Engage in crystal-clear teleconferences with Microsoft Lync™-qualified, Skype-ready, VoIP-optimized software and hardware, including a 2MP HD webcam, stereo speakers with Dolby® Advanced Audio™, and a digital array microphone.</p>
+			<br><p id="preprice">from</p><p id="price"> 900€</p>
+        </div>-->
+    </div>
+    <div class="slide" style="background-color: #A7DBD8">
+        Text
+        <!--<img src="../img/bg/bgAllinone1.png" id="bgAllinone2" />
+        <!--<div id="textAllinones2">
+            <h1>A Series</h1>
+            <h2>Adjustable Screen Angle</h2>
+            <p> The screen can be adjusted from -5 to 90 degrees, allowing for the most comfortable touch angle for any Windows 8 application or the most comfortable viewing angle for any multimedia nugget.</p>
+            <h2>Aluminum Base and Hinge</h2>
+            <p> Enjoy a clean, contemporary look of this model's sleek, ultrathin design.</p>
+            <h2>Eye-Protecting Software</h2>
+            <p> Lenovo Eye Distance System protects your eyes from strain or damage by emitting a warning signal when you are too close to the display.</p>
+            <h2>10-Point Capacitive Multitouch Technology</h2>
+            <p> All ten fingers can accurately interact with the screen at once, using simple, intuitive gestures for precise control with greater accuracy and flexibility.</p>
+            <br><p id="preprice">from</p><p id="price"> 825€</p>
+        </div>-->
+    </div>
+</div>
+<div class="section">
+    <div class="slide" style="background-color: #F38630">
+        Text
+    	<!--<p class="headerTitle">&nbsp PC</p>
+        <img src="../img/bg/pc2a.png" id="bgPC1" />
+        <!--<div id="textPCs">
+            <h1>ThinkCentre</h1>
+            <h2>Tower</h2>
+            <p> Tower desktops provide the ultimate performance with full-featured scalability, yet weigh about 24.7 lbs.</p>
+            <h2>Platform Stability</h2>
+            <p> The M93p desktop features 15-month platform stability with no planned hardware changes that affect the preloaded software image.</p>
+            <h2>Multiple Monitor Display</h2>
+            <p>Maximize productivity with independent display support for up to three monitors (quad-monitor support is available in Mosaic mode on select models). </p>
+            <h2>Tool-Less Expandability</h2>
+            <p>Upgrades are a cinch for IT staff, with convenient tool-free access to hardware. Especially beneficial when working with multiple desktops. And the M83 includes optional second HDD (2.5 inches) and dual graphic card support. Up to three hard drives and one slim ODD supported.</p>
+			<br><p id="preprice">from</p><p id="price"> 530€</p>
+        </div>-->
+    </div>
+    <div class="slide" style="background-color: #F38630">
+        Text
+        <!--<img src="../img/bg/pc1b.png" id="bgPC2" />
+        <!--<div id="textAllinones2">
+            <h1>Erazer X</h1>
+            <h2>OneKey® Overclocking</h2>
+            <p>Increase processor performance across all four cores with the click of a button, or via customized settings.</p>
+            <h2>Lenovo Cooling System</h2>
+            <p>A liquid coolant keeps internal temperatures optimal and protects the system while overclocking.</p>
+            <h2>AMD Eyefinity Technology</h2>
+            <p>Connect up to six displays for a panoramic wall of video with AMD Radeon™ HD8950 graphics (Other graphics cards support up to three displays).</p>
+            <h2>Ample Storage and Memory</h2>
+            <p>With up to 32GB DDR3 memory, you can drive your PC's performance and multi-tasking power to the next tier.</p>
+            <h2>Extreme Expandability</h2>
+            <p>Easily install up to 4TB of additional storage space.</p>
+            <br><p id="preprice">from</p><p id="price"> 925€</p>
+        </div>-->
+    </div>
+</div>
+<div class="section">
+    <div class="slide" style="background-image: url('../img/paper_fibers.png');">
+    	<!--<p class="headerTitle">&nbsp Contact us</p>
+        <!--<div id="textPCs">
+            <h2>Find a Dealer</h2>
+            <p>Lenovo Technology B.V., sivuliike Suomessa</p>
+			<br>
+            <h2>Espoo</h2>
+            <p>Laskutusosoite:<br>
+				Hevosenkenkä 3<br>
+				02600 Espoo<br>
+				Finland</p>
+        </div>-->
+    </div>
+</div>
 </body>
 </html>

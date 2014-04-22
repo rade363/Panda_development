@@ -31,7 +31,8 @@ img {
     margin-right: 5%;
 }
 #bgAllinone1{
-    margin-left: -100px;
+    margin-left: 100px;
+    margin-top: 10%;
 }
 #bgAllinone2{
     float: right;
@@ -40,7 +41,7 @@ img {
 }
 #bgPC1{
 	float: left;
-    margin-top:10%;
+    margin-top: 13%;
     margin-left: -10px;
 }
 #bgPC2{
@@ -70,7 +71,7 @@ img {
     height: 40%;
 	
 }
-#textLaptops, #textTablets, #textAllinones, #textPCs{
+#textLaptops, #textTablets, #textTablets2, #textAllinones, #textAllinones2, #textPCs{
     text-align: left;
     font-family: HelveticaNeue;
 }
@@ -78,7 +79,7 @@ img {
     height: 400px;
     width: 700px;
     margin-left: 10%;    
-    margin-top: 200px;
+    margin-top: 150px;
 }
 #textTablets{
     height: 400px;
@@ -86,19 +87,31 @@ img {
     margin-left: 10%;
     margin-top: 200px;
 }
+#textTablets2{
+    height: 400px;
+    width: 700px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
 #textAllinones{
     height: 600px;
-    width: 400px;
-    float: right;
-    margin-right: 5%;
-    margin-top: 200px;
-}
-#textPCs{
-    height: 400px;
     width: 600px;
     float: right;
     margin-right: 5%;
     margin-top: 200px;
+}
+#textAllinones2{
+    height: 400px;
+    width: 700px;
+    margin-left: 10%;    
+    margin-top: 10%;
+}
+#textPCs{
+    height: 400px;
+    width: 700px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 12%;
 }
 #preprice{
 	font-family: HelveticaNeue;
@@ -108,7 +121,7 @@ img {
 }
 #price{
 	font-family: HelveticaNeue;
-    font-size: 150px;
+    font-size: 125px;
     color: black;
     text-align: right;     
 }
