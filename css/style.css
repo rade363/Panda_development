@@ -4,8 +4,27 @@
    }
 .headerImage{
     position: absolute;
-    margin-top: -450px;
-    margin-left: -800px;
+    top: 3%;
+    left: 3.5%;
+	
+	
+}
+/*Размеры лого, так как пикчи разного разрешения придеться задать разные проценты для резиновой верстки*/
+#logoLaptops{
+	width:10%;
+	height:15%;
+}
+#logoAllinOnes{
+	width:13%;
+	height:13%;
+}
+#logoTablets{
+	width:10%;
+	height:14%;	
+}
+#logoPC{
+	width:6%;
+	height:14%;
 }
 .headerTitle{
     font-family: HelveticaNeue;
@@ -17,6 +36,110 @@
     margin-left: -60%;
 }
 .bttns{
-    width: 70px;
-    height: 70px;
+    width:110%;
+    height: 40%;
+	
 }
+#textLaptops, #textTablets, #textAllinones, #textPCs{
+    margin-top: 10px;
+    text-align: left;
+    font-family: HelveticaNeue;
+}
+#textLaptops{
+    height: 400px;
+    width: 700px;
+    margin-left: 10%;
+}
+#textTablets{
+    height: 400px;
+    width: 500px;
+    margin-left: 10%;
+}
+#textAllinones{
+    height: 600px;
+    width: 400px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: HelveticaNeue;
+}
+#textPCs{
+    height: 400px;
+    width: 800px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: HelveticaNeue;
+}
+/*Rollovers*/
+#home{
+    margin-left: 10%;
+    margin-top: -200px;
+    position: absolute;
+    z-index: 1;
+}
+a.rollover1 {
+	display: block;
+	width: 400px;
+	height: 400px;
+	text-decoration: none;
+    float:left;
+	background: url("../img/rlvrs/homeLaptop1.jpg") no-repeat 0 0;
+	}
+a.rollover1:hover {
+    background: url("../img/rlvrs/homeLaptop2.jpg") no-repeat 0 0;
+	}
+.displace1 {
+	position: absolute;
+	left: -5000px;
+	}
+
+a.rollover2 {
+	display: block;
+	width: 400px;
+	height: 400px;
+	text-decoration: none;
+    float:left;
+	background: url("../img/rlvrs/homeTablet1.jpg") no-repeat 0 0;
+	}
+a.rollover2:hover {
+    background: url("../img/rlvrs/homeTablet2.jpg") no-repeat 0 0;
+	}
+.displace2 {
+	position: absolute;
+	left: -5000px;
+	}
+
+a.rollover3 {
+	display: block;
+	width: 400px;
+	height: 400px;
+	text-decoration: none;
+    float:left;
+	background: url("../img/rlvrs/homeAllinone1.jpg") no-repeat 0 0;
+	}
+a.rollover3:hover {
+    background: url("../img/rlvrs/homeAllinone2.jpg") no-repeat 0 0;
+	}
+.displace3 {
+	position: absolute;
+	left: -5000px;
+	}
+
+a.rollover4 {
+	display: block;
+	width: 400px;
+	height: 400px;
+	text-decoration: none;
+    float:left;
+	background: url("../img/rlvrs/homePC1.jpg") no-repeat 0 0;
+	}
+a.rollover4:hover {
+    background: url("../img/rlvrs/homePC2.jpg") no-repeat 0 0;
+	}
+.displace4 {
+	position: absolute;
+	left: -5000px;
+	}

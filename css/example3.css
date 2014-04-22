@@ -61,38 +61,44 @@ body{
 h1{
 	font-size: 6em;	
 }
-p, h2{
-	font-size: 2em;
+p{
+	font-size: 18px;
 }
 h2{
 	color:inherit;
+    font-size: 2em;
+    margin-top:10px;
 }
 .section{
 	text-align:center;
 }
 #menu li {
 	display:table;
+	/*background:green;*/
+	height:50px;
+	width:60px;
 	margin: 10px; 
-	color: #000;*/
-	background: #fff;
-	background: rgba(255,255,255, 0.5);
+	/*color: #000;*/
+	/*background: #fff;
+	background: rgba(255,255,255, 0.5);*/
 	-webkit-border-radius: 50px; 
             border-radius: 50px; 
 }
-#menu li.active{
+/*#menu li.active{
 	background:#666;
 	background: rgba(0,0,0, 0.3);
 	color: #fff;
-}
+}*/
 #menu li a{
 	text-decoration:none;
 	color: #000;
 }
 #menu li.active a:hover{
-	color: #000;
+	/*color: #000;*/
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	/*background: rgba(255,255,255, 0.8);*/
+	
 }
 #menu li a,
 #menu li.active a{
@@ -100,7 +106,7 @@ h2{
 	display:block;
 }
 #menu li.active a{
-	color: #fff;
+	/*color: #fff;*/
 }
 #menu{
 	position:fixed;
@@ -108,7 +114,7 @@ h2{
 	left:0;
 	height: 500px;
 	z-index: 70;
-	width: 100px;
+	/*width: 100%;*/
 	padding: 0;
 	margin:0;
 }
