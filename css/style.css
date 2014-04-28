@@ -1,41 +1,56 @@
-﻿img {
+﻿body {
+		background:url("../img/bg.jpg");
+}
+img {
     height: auto;
     max-width: 100%;
 }
 #gdgt{
-	float: right;
-    margin-top:10%;
-    margin-right: 5%;
+	
+	padding-left:50px;
+	max-height:50%;
 }
 #info{
+	float:left;
     text-align: left;
-    height: 400px;
-    width: 800px;
-    margin-left: 10%;    
-    margin-top: 0px;
+    width: 40%;
+    padding-left: 10%;    
+    padding-top: 0px;
 }
 h1{
-	font-size: 6em;	
+	font-size: 3em;	
+	color:#222;
+	padding-top:50px;
 }
 h2{
-    font-size: 3em;
-    margin-top:10px;
+    font-size: 2em;
+    padding-top:10px;
+	color:#222;
+}
+h3{
+    font-size: 1.5em;
+    padding-top:10px;
+	font-style:bold;
+	color:#222;
 }
 p{
-	font-size: 1.5em;
+	font-size: 1.0em;
+	color:#333;
 }
 #preprice{
     font-size: 20px;
-    text-align: center;     
+    text-align: center;  
+	color:#222; 	
 }
 #price{
-    font-size: 125px;
-    text-align: right;     
+    font-size: 100px;
+	color:#222; 
+	text-align: right; 
 }
 .intro {
-    margin-left:auto;
-    margin-right:auto;
+    margin:0 auto;
     width:80%;
+	height:100%;
 }
 
 
@@ -48,14 +63,16 @@ p{
 }
 a.rollover1 {
 	display: block;
-	width: 400px;
-	height: 400px;
+	width: 25%;
+	height:400px;
 	text-decoration: none;
     float:left;
-	background: url("../img/rlvrs/homeLaptop1.jpg") no-repeat 0 0;
+	background: url("../img/rlvrs/homeLaptop1.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 a.rollover1:hover {
-    background: url("../img/rlvrs/homeLaptop2.jpg") no-repeat 0 0;
+    background: url("../img/rlvrs/homeLaptop2.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 .displace1 {
 	position: absolute;
@@ -64,14 +81,16 @@ a.rollover1:hover {
 
 a.rollover2 {
 	display: block;
-	width: 400px;
+	width: 25%;
 	height: 400px;
 	text-decoration: none;
     float:left;
-	background: url("../img/rlvrs/homeTablet1.jpg") no-repeat 0 0;
+	background: url("../img/rlvrs/homeTablet1.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 a.rollover2:hover {
-    background: url("../img/rlvrs/homeTablet2.jpg") no-repeat 0 0;
+    background: url("../img/rlvrs/homeTablet2.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 .displace2 {
 	position: absolute;
@@ -80,14 +99,16 @@ a.rollover2:hover {
 
 a.rollover3 {
 	display: block;
-	width: 400px;
+	width: 25%;
 	height: 400px;
 	text-decoration: none;
     float:left;
-	background: url("../img/rlvrs/homeAllinone1.jpg") no-repeat 0 0;
+	background: url("../img/rlvrs/homeAllinone1.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 a.rollover3:hover {
-    background: url("../img/rlvrs/homeAllinone2.jpg") no-repeat 0 0;
+    background: url("../img/rlvrs/homeAllinone2.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 .displace3 {
 	position: absolute;
@@ -96,14 +117,16 @@ a.rollover3:hover {
 
 a.rollover4 {
 	display: block;
-	width: 400px;
+	width: 25%;
 	height: 400px;
 	text-decoration: none;
     float:left;
-	background: url("../img/rlvrs/homePC1.jpg") no-repeat 0 0;
+	background: url("../img/rlvrs/homePC1.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 a.rollover4:hover {
-    background: url("../img/rlvrs/homePC2.jpg") no-repeat 0 0;
+    background: url("../img/rlvrs/homePC2.png") no-repeat 0 0;
+	background-size: 100%;
 	}
 .displace4 {
 	position: absolute;

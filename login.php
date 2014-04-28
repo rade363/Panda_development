@@ -46,7 +46,7 @@ if ($_POST)
 	if($password == "")
 	{
 	$error = true;
-	$errortext .= "<li>lease, fill out the field Password</li>";
+	$errortext .= "<li>Please, fill out the field Password</li>";
 	} 
 	
 	$errortext .= "</ul></b>";
@@ -80,22 +80,20 @@ if ($_POST)
 		
 			if($myrow["password"] == md5($password))
 			{
-				date_default_timezone_set("Europe/Helsinki"); 
-				$date = date('l jS \of F Y G:i:s');
 				$hash = md5(generateCode(10));
-				$ip = $_SERVER["REMOTE_ADDR"];
-				$sql = mysql_query("UPDATE ultra_secured_table_of_users SET hash = '".$hash."', last_login = '".$date."', last_ip = '".$ip."' where email = '".$email."'", $dbcon);
+				$sql = mysql_query("UPDATE ultra_secured_table_of_users SET hash = '".$hash."' where email = '".$email."'", $dbcon);
 				if (!$sql) {echo "Something weird with MySQL, try again.";}
 				if ($sql)
 				{
 					 $_SESSION["email"] = $email;
 					 $_SESSION["hash"] = $hash;
+					 $_SESSION["alert"] = "true";
 					 echo("You have successfully logged in to the panel!");
 					 header("Location: panel.php");
 				}
 			}
 			else
-				echo("Wrong password my little friend");
+				echo("Wrong password. <a href='index.html'>Try again</a>.");
 			
 		}
 	}
